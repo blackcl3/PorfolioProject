@@ -1,0 +1,62 @@
+
+body {
+	font-family: 'Work Sans', sans-serif;
+
+	color: #2d3c49;
+}
+
+nav {
+
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+
+.header-title {
+	/*font-weight: 300;*/
+	text-transform: uppercase;
+	margin-bottom: 0;
+	text-align: right;
+	font-kerning: 1.75em;
+
+}
+
+.header-subtitle {
+	margin-top: 0;
+	text-align: right;
+	border-bottom: 1px solid #7d97ad;
+	padding-bottom: 10px;
+}
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	width: 100%;
+}
+
+.section-heading {
+	color: #7d97ad;
+	font-weight: 300;
+}
+
+
+.about-me-text, a {
+	font-family: 'Lato', sans-serif;
+}
+
+.project {
+	text-align: center;
+}
+
+.project-title {
+	text-transform: uppercase;
+
+}
+
+.image-caption {
+	font-size: 10px;
+}
