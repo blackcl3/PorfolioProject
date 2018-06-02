@@ -71,6 +71,11 @@
 	.project-link {
 		font-size: 8px;
 	}
+	
+	.header-title, .header-subtitle {
+		text-align: right;
+		margin-right: 0;
+	}
 
 	.header-subtitle {
 		padding-bottom: 2em;
@@ -135,7 +140,7 @@
 	}
 
 	.about-me {
-		width: 100%q;
+		width: 100%;
 	}
 
 }
