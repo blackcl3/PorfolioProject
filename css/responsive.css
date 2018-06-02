@@ -1,7 +1,19 @@
 @media screen and (max-width: 449px) {
 
 	.logo {
-		display: none;
+		width: 15%;
+		display: inline-block;
+		float: left;
+		margin-top: 15px;
+	}
+
+	.header {
+		display: block-inline;
+	}
+
+	.header-title, .header-subtitle {
+		text-align: right;
+		margin-right: 0;
 	}
 
 	.main-image-figure {
@@ -73,12 +85,21 @@
 		margin-right: auto;
 	}
 
+
 	.main-image-section {
+		width: 55%;
+		order: 0;
+		display: inline-block;
+	}
+
+	.main-image {
 		width: 100%;
 	}
 
+
 	.about-me {
-		width: 100%;
+		width: 40%;
+		order: -2;
 	}
 
 	.project {
@@ -112,9 +133,9 @@
 	.main-image-section {
 		width: 100%;
 	}
+
 	.about-me {
-		width: 100%;
-		order: 0;
+		width: 100%q;
 	}
 
 }
